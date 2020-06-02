@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+.content-center {
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.content-center .text-center {
+    text-align: center;
+}
+
+.content-center img {
+    width: 70%;
+}
+
+.content-center form {
+    margin: 20px;
+}
+
+.content-center input, button {
+    width: 100%;
+    padding: 10px 5px;
+    border: none;       /*retirando borda*/
+    outline: none;
+}
+
+.content-center input {     /*aplicando a linha no imput*/
+    border-bottom-color: #ccc;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    margin-bottom: 10px;
+}
+
+.content-center input:focus {       /*input selecionado*/
+    border-bottom-color: #f17623;    
+}
+
+.content-center button {
+    background-color: #f17623;
+    color: #fff;
+}
+
+.content-center button:hover {
+    background-color: #b55b28;
+    cursor: pointer;
+}
+
+.content-center button:active {
+    background-color: #c14e0e;
+}
+
+header a {
+    color: #666;
+    text-decoration: none;  /*retirando o sublinhado*/
+}
+
+header h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin: 50px auto;
+}
+
+footer {
+    font-size: 0.8em;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
